@@ -160,6 +160,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="alarmText" destination="T6s-Z5-7By" id="YaS-8T-0W5"/>
                         <outlet property="hourLeft" destination="ESQ-Su-fwh" id="wjW-hk-rkS"/>
                         <outlet property="mainLabel" destination="T6s-Z5-7By" id="BhR-E0-tIi"/>
                         <outlet property="minuteLeft" destination="26t-P5-dmf" id="XI3-Ty-64s"/>
@@ -167,6 +168,7 @@
                         <outlet property="secondLeft" destination="NEL-u4-JEB" id="fw3-Nd-zgS"/>
                         <outlet property="testLabel" destination="sq5-BN-V86" id="8r1-Pi-bHi"/>
                         <outlet property="timePicker" destination="RKp-uV-sII" id="SpV-mX-y1G"/>
+                        <outlet property="topview" destination="W1L-8w-Xad" id="6zd-An-dsn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
